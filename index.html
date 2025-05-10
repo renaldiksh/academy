@@ -40,9 +40,9 @@
   <body> 
 
   <!--START SCROLL TOP BUTTON -->
-    <a class="scrollToTop" href="#">
+    <!-- <a class="scrollToTop" href="#">
       <i class="fa fa-angle-up"></i>      
-    </a>
+    </a> -->
   <!-- END SCROLL TOP BUTTON -->
 
   <!-- Start header  -->
@@ -109,15 +109,15 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="course.html">Course Archive</a></li>                
-                <li><a href="course-detail.html">Course Detail</a></li>                
+                <li><a href="#">Course Detail</a></li>                
               </ul>
             </li>           
             <li><a href="gallery.html">Gallery</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-archive.html">Blog Archive</a></li>                
-                <li><a href="blog-single.html">Blog Single</a></li>                
+                <li><a href="#">Blog Archive</a></li>                
+                <li><a href="#">Blog Single</a></li>                
               </ul>
             </li>            
             <li><a href="contact.html">Contact</a></li>
@@ -232,6 +232,46 @@
     </div>
   </section>
   <!-- End service  -->
+
+  <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/6281234567890" class="wa-float" target="_blank" aria-label="Hubungi Kami di WhatsApp">
+  <div class="wa-button">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" />
+    <span>Hubungi Kami</span>
+  </div>
+</a>
+
+<style>
+  .wa-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.wa-button {
+  display: flex;
+  align-items: center;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.wa-button img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.wa-button:hover {
+  background-color: #1ebe57;
+}
+
+</style>
 
   <!-- Start latest course section -->
   <section id="mu-latest-courses" style="margin-top: 100px;">
