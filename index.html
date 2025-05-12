@@ -877,6 +877,60 @@ body {
   </section>
   <!-- End from blog -->
 
+  <!-- Floating CTA Container -->
+<div class="floating-cta-group">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/6281234567890" target="_blank" class="floating-cta-item" title="Chat WhatsApp">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+  <!-- Telepon -->
+  <a href="tel:+6281234567890" class="floating-cta-item" title="Telepon Kami">
+    <i class="fa fa-phone"></i>
+  </a>
+  <!-- Formulir -->
+  <a href="https://forms.gle/your-google-form-link" target="_blank" class="floating-cta-item" title="Daftar Sekarang">
+    <i class="fa fa-pencil"></i>
+  </a>
+  <!-- Instagram -->
+  <a href="https://instagram.com/namatimkamu" target="_blank" class="floating-cta-item" title="Instagram">
+    <i class="fa fa-instagram"></i>
+  </a>
+</div>
+
+<style>
+  .floating-cta-group {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+  }
+  
+  .floating-cta-item {
+    background-color: #25d366;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: background 0.3s;
+    text-decoration: none;
+  }
+  
+  .floating-cta-item:hover {
+    background-color: #1ebe57;
+  }
+  .floating-cta-item:nth-child(2) { background-color: #007bff; } /* Telepon */
+  .floating-cta-item:nth-child(3) { background-color: #f39c12; } /* Form */
+  .floating-cta-item:nth-child(4) { background-color: #e4405f; } /* IG */
+  </style>
+  
+
   <!-- Start footer -->
   <footer id="mu-footer">
     <!-- start footer top -->
