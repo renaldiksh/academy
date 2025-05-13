@@ -819,7 +819,7 @@ img {
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single:hover .mu-our-teacher-img .mu-our-teacher-social {
-  opacity: 1;
+  opacity: 0.5;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single:hover .mu-our-teacher-img .mu-our-teacher-social a {
   -moz-transform: translateY(0%);
